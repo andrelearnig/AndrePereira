@@ -351,6 +351,12 @@ main {
   position: absolute;
 }
 
+@media (max-width: 575px) {
+  .home-button {
+     top: -390px;
+  }
+}
+
 @media (min-width: 576px) {
   .home-button {
     display: block;
